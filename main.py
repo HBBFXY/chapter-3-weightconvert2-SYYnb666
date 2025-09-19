@@ -5,7 +5,6 @@ annual_gain = 0.5
 # 月球体重是地球的比例
 moon_ratio = 0.165
 
-print（"年份\t地球体重（公斤）\t月球体重（公斤）"）
 for year in range（1, 11）:
     # 计算地球上当年的体重
     earth_weight = initial_weight + annual_gain * year
