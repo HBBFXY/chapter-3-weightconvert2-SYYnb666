@@ -1,5 +1,5 @@
 # 获取用户输入的初始体重
-initial_weight = float（input（""））
+initial_weight = float（input（））
 # 每年增长的体重
 annual_gain = 0.5
 # 月球体重是地球的比例
