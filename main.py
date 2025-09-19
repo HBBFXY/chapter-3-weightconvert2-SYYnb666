@@ -1,5 +1,5 @@
 # testweightcovert
-initial_weight = 50
+initial_weight = x
 moon_ratio = 0.165
 earth_weight = initial_weight
 for year in range（1, 11）:
