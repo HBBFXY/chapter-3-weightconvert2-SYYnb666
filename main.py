@@ -1,4 +1,4 @@
-# 假设初始地球体重为50公斤
+
 initial_weight = 50
 moon_ratio = 0.165
 earth_weight = initial_weight
