@@ -1,14 +1,9 @@
-# 初始能力值
-ability = 1
-# 遍历365天
-for day in range（1, 366）:
-    # 计算当天在周期内的位置（1 - 7）
-    day_in_cycle = day % 7
-    # 若为0，说明是第7天，修正为7
-    if day_in_cycle == 0:
-        day_in_cycle = 7
-    # 第4 - 7天，能力值增长1%
-    if 4 ＜= day_in_cycle ＜= 7:
-        ability *= 1.01
-# 输出结果，保留6位小数
-print（"连续学习365天后的能力值为：{:.6f}".format（ability））
+# 假设初始地球体重为50公斤
+initial_weight = 50
+moon_ratio = 0.165
+earth_weight = initial_weight
+print（"年份\t地球体重（公斤）\t月球体重（公斤）"）
+for year in range（1, 11）:
+    moon_weight = earth_weight * moon_ratio
+    print（"第{}年\t{:.2f}\t\t{:.2f}".format（year, earth_weight, moon_weight））
+    earth_weight += 0.5
