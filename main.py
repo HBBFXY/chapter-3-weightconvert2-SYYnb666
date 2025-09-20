@@ -1,7 +1,7 @@
-initial_weight = float(input())
-annual_gain = 0.5
-moon_ratio = 0.165
-for year in range(1, 11):
-    earth_weight = initial_weight + annual_gain * year
-    moon_weight = earth_weight * moon_ratio
-    print("{}\t{:.2f}\t\t{:.2f}".format(year, earth_weight, moon_weigh))
+# 在这个文件里编写代码
+earth_weight = float（input（"请输入地球重量（kg）："））
+print（"年份\t地球重量（kg）\t月球重量（kg）"）
+for year in range（1, 11）:
+    earth_weight+=0.5
+    moon_weight=earth_weight*0.165
+    print（f"{year}\t{earth_weight:.2f}\t\t{moon_weight:.2f}"）
